@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <title>OmniCards MockUp</title>
     <link rel="stylesheet" href="dist/themes/default/style.min.css"/>
+    <link rel="stylesheet" href="dist/markitup/skins/simple/style.css"/>
+    <link rel="stylesheet" href="dist/markitup/sets/default/style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <h1>OmniCards basic idea mockup</h1>
 
+<div id="oc-top">Menu stuff, etc.</div>
+
 <div id="oc-tree"></div>
 
-<div id="oc-editor">Content</div>
+<div id="oc-content"><textarea id="oc-editor" class="markItUp"></textarea></div>
 
 <script src="dist/libs/jquery.js"></script>
 <script src="dist/jstree.min.js"></script>
+<script src="dist/markitup/jquery.markitup.js"></script>
+<script src="dist/markitup/sets/default/set.js"></script>
 <script src="content.js"></script>
 <script src="tree.js"></script>
-
 </body>
 </html>

@@ -43,6 +43,8 @@ $(function () {
       console.log(data.selected);
       changeContent(data);
     });
+    $('#oc-editor').markItUp(mySettings);
+
 })
 
 function getContentById (id) {
@@ -55,5 +57,7 @@ function getContentById (id) {
 
 function changeContent(data) {
     console.log("function changeContent " + data.selected);
+    $('#oc-editor').markItUpRemove();
     document.getElementById("oc-editor").innerHTML = getContentById( data.selected);
+    $('#oc-editor').markItUp(mySettings);
 }

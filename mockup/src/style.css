@@ -1,0 +1,32 @@
+#oc-content {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 800px;
+    height: 700px;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#oc-tree {
+    position: absolute;
+    top: 160px;
+    width: 260px;
+    height: 700px;
+    border: 1px darkblue solid;
+    padding: 10px;
+}
+
+#oc-top {
+    position: absolute;
+    height: 77px;
+    width: 1112px;
+    border: 1px black solid;
+}
+
+#oc-editor {
+    width: 778px;
+    height: 678px;
+    margin: 5px;
+    padding: 5px;
+}
